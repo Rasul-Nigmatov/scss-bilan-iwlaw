@@ -1,0 +1,16 @@
+.user__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__item {
+    margin-right: 33px;
+}
+
+.user__link--about:hover {
+    opacity: 0.8;
+    color: rgba(51, 61, 75, 1);
+}
