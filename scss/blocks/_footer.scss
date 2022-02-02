@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: rgba(44, 52, 62, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 86px;
+}
+
+.footer-content__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+.footer-content__item {
+    margin-right: 33px;
+}
+
+.footer__link {
+    color: rgba(131, 136, 143, 1);
+}
+
+
+.footer-link__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.footer-link__item {
+    margin-right: 24px;
+}

@@ -4,6 +4,8 @@
 @import "blocks/hero-title";
 @import "blocks/coffee__content";
 @import "blocks/choose";
+@import "blocks/transfer";
+@import "blocks/footer";
 @import "general";
 @import "variables" ;
 @import "mixins";
@@ -12,6 +14,4 @@
 
 
 
-.user__list {
-    @include reset-list;
-} 
+
