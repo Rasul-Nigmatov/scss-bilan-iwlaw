@@ -10,6 +10,15 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 45px;
+}
+
+.user__link {
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-weight: 700;
+  color: #83888f;
 }
 
 .user__list {
@@ -39,9 +48,13 @@
 
 .hero__content::before {
   position: absolute;
-  width: 100%;
-  height: 359px;
+  width: 1280px;
+  height: 600px;
   background-color: #2c343e;
+  background-image: url("../../img/hero.jpg");
+  background-repeat: no-repeat;
+  top: -100px;
+  left: -30px;
   z-index: -1;
   content: '';
 }
@@ -52,6 +65,8 @@
   width: 493px;
   height: 145px;
   font-size: 72px;
+  font-family: 'Fraunces', 'Lora', serif;
+  font-weight: 900;
   color: #fefcf7;
 }
 
@@ -61,7 +76,9 @@
   width: 445px;
   height: 78px;
   font-size: 16px;
+  font-family: 'Barlow', Helvetica, sans-serif;
   font-weight: 400;
+  color: #fefcf7;
 }
 
 .hero__link {
@@ -72,11 +89,12 @@
   background-color: #0e8784;
   color: #fefcf7;
   border-radius: 6px;
+  font-family: 'Fraunces', 'Lora', serif;
+  font-weight: 900;
 }
 
 .coffee__content {
-  margin-top: 50px;
-  margin-bottom: 200px;
+  padding-top: 200px;
 }
 
 .coffee__titule {
@@ -84,6 +102,7 @@
   padding: 0px;
   text-align: center;
   font-family: 'Fraunces', Times, serif;
+  font-weight: 900;
   font-style: Black;
   font-size: 150px;
   line-height: 1.5;
@@ -95,7 +114,7 @@
 }
 
 .coffee__list {
-  margin: 0px;
+  margin-top: -100px;
   padding: 0px;
   list-style: none;
   display: -webkit-box;
@@ -115,13 +134,19 @@
   width: 255px;
   height: 32px;
   font-size: 24px;
+  font-family: 'Fraunces', 'Lora', serif;
+  font-weight: 900;
   color: #333d4b;
 }
 
 .coffee__discrip {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   width: 255px;
   height: 78px;
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: #333d4b;
 }
@@ -131,10 +156,11 @@
 }
 
 .choose__content::before {
-  width: 100%;
+  width: 1280px;
   height: 577px;
   background-color: #2c343e;
   position: absolute;
+  top: 0px;
   content: '';
   z-index: -1;
 }
@@ -143,6 +169,7 @@
   width: 329px;
   height: 48px;
   font-size: 40px;
+  font-family: 'Fraunces', 'Lora', serif;
   font-weight: 900;
   margin: 100px 475px 32px 475px;
   color: #fefcf7;
@@ -153,6 +180,7 @@
   width: 540px;
   height: 80px;
   font-size: 16px;
+  font-family: 'Barlow', Helvetica, sans-serif;
   font-weight: 400;
   color: #fefcf7;
   margin-bottom: 86px;
@@ -172,9 +200,10 @@
 
 .choose-coffee__item {
   width: 350px;
+  margin-left: 40px;
   margin-right: 30px;
   padding: 72px 48px 48px 47px;
-  background-color: #0e8784;
+  background-color: #0E8784;
   border-radius: 8px;
 }
 
@@ -189,16 +218,19 @@
   width: 255px;
   height: 32px;
   font-size: 24px;
+  font-family: 'Fraunces', 'Lora', serif;
   font-weight: 900;
   color: #fefcf7;
 }
 
 .choose-coffee__discrip {
+  margin: 0px;
   margin-top: 24px;
   padding: 0px;
   text-align: center;
   width: 255px;
   height: 78px;
+  font-family: 'Barlow', Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgba(254, 252, 247, 0.6);
@@ -244,7 +276,7 @@
   width: 255px;
   height: 32px;
   font-size: 24px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Fraunces', 'Lora', serif;
   font-weight: 900;
   color: #83888f;
   position: relative;
@@ -285,7 +317,7 @@
   max-width: 255px;
   height: 73px;
   font-size: 32px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Fraunces', 'Lora', serif;
   font-weight: 900;
   color: #333d4b;
 }
@@ -297,7 +329,7 @@
   max-width: 285px;
   max-height: 130px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Barlow', Helvetica, sans-serif;
   font-weight: 400;
   color: #333d4b;
 }
@@ -306,6 +338,8 @@
   display: inline-block;
   margin-top: 64px;
   padding: 15px 31px;
+  font-family: 'Fraunces', 'Lora', serif;
+  font-weight: 900;
   background-color: #0E8784;
   border-radius: 6px;
   color: #fefcf7;
@@ -347,6 +381,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer-content__item {
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 .footer-content__item {
