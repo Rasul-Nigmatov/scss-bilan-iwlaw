@@ -4,6 +4,17 @@
     text-align: center;
     padding-top: 44px;
     padding-bottom: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.header__content {
+    max-width: 1111px;
+    display: flex;
 }
 
 .user__link {
@@ -11,3 +22,31 @@
     font-weight: 700;
     color: rgba(131, 136, 143, 1);
 }
+
+.header___burger {
+    border: none;
+    background-color: #fff;
+    width: 16px;
+    height: 15px;
+    
+    &::before,
+    &::after 
+    &-inner {
+    width: 16px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    content: '';
+    }
+    
+}
+/* .header__burger-inner {
+    width: 16px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+} */
+/* width: 16px;
+height: 3px;
+background-color: #000;
+display: block; */

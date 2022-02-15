@@ -1,4 +1,5 @@
-.footer-container {
+.footer__container {
+    width: 100%;
     background-color: rgba(44, 52, 62, 1);
     display: flex;
     justify-content: space-between;
@@ -35,4 +36,13 @@
 
 .footer-link__item {
     margin-right: 24px;
+}
+
+.footer-link__logo--fotrmats {
+    display: block;
+    color: #FEFCF7;
+}
+
+.footer-link__logo--fotrmats:hover {
+    color: #FDD6BA;
 }
